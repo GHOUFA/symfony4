@@ -1,0 +1,7 @@
+#index:
+#    path: /
+#    controller: App\Controller\ArticleController::homepage
+
+app_front_number:
+    path: /front/number
+    controller: App\Controller\FrontController::number
