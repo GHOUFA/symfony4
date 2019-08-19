@@ -1,0 +1,7 @@
+fos_user:
+    db_driver: orm # other valid values are 'mongodb' and 'couchdb'
+    firewall_name: main
+    user_class: App\Entity\User
+    from_email:
+        address: "zouhayer.amine@tritux.com"
+        sender_name: "zouhayer.amine@tritux.com"
